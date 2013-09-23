@@ -1,0 +1,8 @@
+      integer      MXNVAR,MXNRBM,MXNBC,MAXNOD,MAXELM,MAXNEN,
+     *             MXNEPS,MAXINT,
+     *             MAXNEQ,MAXLKS,MXSOPT,MAXMAT,MAXSTK
+      parameter   (MXNVAR=13,MXNRBM=2,MXNBC=12,
+     *             MAXNOD=81,MAXELM=40,MAXNEN=3,
+     *             MXNEPS=27,MAXINT=3,MAXNEQ=573,MAXLKS=11000,
+     *             MXSOPT=40,MAXMAT=15,MAXSTK=30)
+     

@@ -1,0 +1,75 @@
+11     :NMAT, Number of materials
+T300/5208                     
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1810E+12  0.1030E+11 :E1, E2
+ 0.2800E+00  0.2800E+00 :Nu12, Nu23
+ 0.7170E+10             :G12
+ 0.2000E-07  0.2250E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.4400E+00 :Am11, Am22
+B(4)/5505                     
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.2040E+12  0.1850E+11 :E1, E2
+ 0.2300E+00  0.2300E+00 :Nu12, Nu23
+ 0.5590E+10             :G12
+ 0.6100E-05  0.3030E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.5000E+00 :Am11, Am22
+Aluminum                      
+1     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.7100E+11     :E
+ 0.3340E+00     :Nu
+ 0.2390E-04     :Alpha Thermal
+ 0.0000E+00     :Alpha Moisture 
+Test Jones p199               
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.7800E+07  0.2600E+07 :E1, E2
+ 0.2500E+00  0.2500E+00 :Nu12, Nu23
+ 0.1250E+07             :G12
+ 0.3500E-05  0.1140E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.0000E+00 :Am11, Am22
+Generic Isotropic             
+1     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1100E+08     :E
+ 0.3000E+00     :Nu
+ 0.2000E-04     :Alpha Thermal
+ 0.2000E-04     :Alpha Moisture 
+T300/934                      
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1470E+12  0.9100E+10 :E1, E2
+ 0.3000E+00  0.4900E+00 :Nu12, Nu23
+ 0.4620E+10             :G12
+-0.7200E-07  0.3370E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.0000E+00 :Am11, Am22
+junk material 1               
+1     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.2000E+02     :E
+ 0.3000E+00     :Nu
+ 0.3000E+00     :Alpha Thermal
+ 0.4000E+00     :Alpha Moisture 
+lee's material                
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1550E+12  0.1100E+11 :E1, E2
+ 0.3000E+00  0.3000E+00 :Nu12, Nu23
+ 0.7580E+10             :G12
+ 0.1000E-05  0.5500E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.0000E+00 :Am11, Am22
+Special Ortho                 
+3     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.7100E+11  0.7100E+11  0.7100E+11      :E1, E2, E3
+ 0.3340E+00  0.3340E+00  0.3340E+00      :Nu12, Nu13, Nu23
+ 0.2661E+11  0.2661E+11  0.0000E+00      :G12, G13, G23
+ 0.0000E+00  0.0000E+00  0.2390E-04      :At11, At22, At33
+ 0.0000E+00  0.0000E+00  0.0000E+00      :Am11, Am22, Am33
+Al honeycomb                  
+3     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.0000E+00  0.0000E+00  0.1000E+10      :E1, E2, E3
+ 0.0000E+00  0.0000E+00  0.0000E+00      :Nu12, Nu13, Nu23
+ 0.0000E+00  0.3500E+09  0.3500E+09      :G12, G13, G23
+ 0.2390E-04  0.2390E-04  0.2390E-04      :At11, At22, At33
+ 0.0000E+00  0.0000E+00  0.0000E+00      :Am11, Am22, Am33
+Hyer's                        
+3     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1468E+12  0.9929E+10  0.9101E+10      :E1, E2, E3
+ 0.3000E+00  0.3000E+00  0.4900E+00      :Nu12, Nu13, Nu23
+ 0.1000E+10  0.1000E+10  0.1000E+10      :G12, G13, G23
+-0.7740E-07  0.3366E-04  0.3366E-04      :At11, At22, At33
+ 0.0000E+00  0.0000E+00  0.0000E+00      :Am11, Am22, Am33

@@ -1,0 +1,4 @@
+      real*8     PI,PIODEG
+      parameter (PI=3.14159265, PIODEG = 0.0174532952)
+      
+      

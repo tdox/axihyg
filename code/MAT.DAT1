@@ -1,0 +1,7 @@
+ 1     :NMAT, Number of materials
+ma1                           
+1     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.3000E+08     :E
+ 0.3000E+00     :Nu
+ 0.5000E-05     :Alpha Thermal
+ 0.0000E+00     :Alpha Moisture 

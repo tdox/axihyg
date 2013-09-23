@@ -1,0 +1,32 @@
+cat     axi.f    b1eb1.f  b1eb2.f  b1eb3.f  b2eb2.f   bigout.f     \
+	bn.f     bn121.f    bneout.f  clearb.f  clrfe.f  clrke.f \
+	clrkf.f  dimens.f    dot.f   dspplt.f    ehomo.f   elam.f \
+	engtoc.f  esub.f fedisp.f feedgt.f   femech.f     feout.f \
+	fethrm.f  fgout.f  fmechs.f  formkf.f  ftherm.f   fthhom.f \
+	fthlam.f  idien.f     input.f   intdat.f   keout.f   keshrt.f \
+	kesub.f  kfassm.f kgout.f kskyo.f    kstest.f    l121.f   \
+	lamcof.f  linshp.f    ljout.f  nodein.f   output.f    \
+	pltout.f    posplt.f   quashp.f  rbmshp.f  resplt.f    result.f \
+	shpplt.f skylin.f  solve.f   stifro.f    strro.f    symtzr.f \
+	xnd121.f   xpos.f   xwskro.f    zeror2.f > ahfe.tmp
+
+
+cat   usrfrd.f addmat.f   bcs.f   chgmat.f   create.f  dims.f  \
+geoms.f    getmst.f gettmp.f   init.f  intro.f layups.f  loads.f \
+lodats.f maters.f matlst.f matnot.f matwrt.f   mesh.f  miwrt.f modify.f \
+moisti.f  nodes.f numels.f   outs.f  phi12.f   quit.f shapes.f sltchs.f \
+stkini.f  tempi.f titles.f  tiwrt.f unitss.f viewmt.f  write.f xedges.f \
+yesno.f > ahuf.tmp
+
+cat    altobt.f bcwrt.f bcset.f bcunit.f checkx.f error.f geowrt.f \
+inred.f inwrt.f lamtm.f laywrt.f matred.f mstwrt.f otqwrt.f sltwrt.f \
+thetin.f thrset.f thtint.f tmpwrt.f untset.f  wait.f wrtmat.f xedwrt.f \
+xeintp.f > ahlib.tmp
+
+sed -f incom.sed ahfe.tmp > ahfe.f
+sed -f incom.sed ahuf.tmp > ahuf.f
+sed -f incom.sed ahlib.tmp > ahlib.f
+
+rm ahfe.tmp
+rm ahuf.tmp
+rm ahlib.tmp

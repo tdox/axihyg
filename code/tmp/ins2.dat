@@ -1,0 +1,29 @@
+Laminated Spherical Cap                                                         
+s                  :UNIT, "s" for SI, "e" for English
+8                  :THEORY;  1,2,3,4,5,6,7,8
+T                  :RIGID if TRUE, rigid body displacements included
+2                  :TORORD; t/R order 0,1,or2
+1 2 1              :OSHPU,OSHPW,OSHPD(integers);Order SHape function (U,W,D)
+2                  :NINT (Number of INTegration points
+T                  :KSHORT; if TRUE, quick alogorithm for stiffness
+torp               :SHAPE(character*4); either CYLN, CONE, SPHR,PARB
+  0.00000E+00  0.70000E-01  0.00000E+00  0.45000E+02       :Rc,Rphi,Phi_top,Phi_bot
+20                 :NUMEL(integer); number of elements
+ 1  0.00000E+00    :Node,X(Node)
+21  0.45000E+02    :Node,X(Node)
+F                  :HOMOGN, if true material is homogeneous
+T                  :SYM; if true laminate is symmetric
+ 2                 :Number of stacks
+  1  1  1  0.50000E-03    0.0  :Stack No.,Material No.,NPLY,PTH,Theta
+  2  1  1  0.50000E-03   90.0  :Stack No.,Material No.,NPLY,PTH,Theta
+F                  :FCODE; if .TRUE. mechanical load data follows
+T                  :TCODE; if .TRUE. thermal data follows
+ 1  0.10000E+02  0.10000E+02  0.10000E+02  :Node,Temp in.,Temp mid.,Temp out.
+21  0.10000E+02  0.10000E+02  0.10000E+02  :Node,Temp in.,Temp mid.,Temp out.
+F                  :MOIST; if .TRUE. moisture data follows
+2                  :BCTYPE(1) 0:general 1:s.s 2:clamp 3:free 4:sym
+3                  :BCTYPE(2) 0:general 1:s.s 2:clamp 3:free 4:sym
+T                  :BACK; if true solve for displacements
+T                  :ReSuLT; if true solve for resultants
+F                  :PLoTSWitCh; if true plotting data files
+outs2.dat          :Output file name

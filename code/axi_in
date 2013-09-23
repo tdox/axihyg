@@ -1,0 +1,23 @@
+#!/bin/csh -f
+
+# insure that argument is given
+if( $1 == "" )then
+	echo " "
+	echo "usage:" $0 "string"
+	exit
+endif
+
+foreach FILE (`find . -name \*OUT.DAT -print`)
+	echo "removing" $FILE
+	rm $FILE
+end
+
+if -e ERROR.DAT then
+	echo "removing ERROR.DAT"
+	rm ERROR.DAT
+endif
+
+cp in$1 INPUT.DAT
+axi
+cp WOUT.DAT w$1.dat
+cp BOUT.DAT b$1.dat

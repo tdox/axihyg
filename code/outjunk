@@ -1,0 +1,26 @@
+junk                                                                            
+s                  :UNIT, "s" for SI, "e" for English
+8                  :THEORY;  1,2,3,4,5,6,7,8
+F                  :RIGID if TRUE, rigid body displacements included
+2                  :TORORD; t/R order 0,1,or2
+1 2 1              :OSHPU,OSHPW,OSHPD(integers);Order SHape function (U,W,D)
+2                  :NINT (Number of INTegration points
+T                  :KSHORT; if TRUE, quick alogorithm for stiffness
+cone               :SHAPE(character*4); either CYLN, CONE, SPHR,PARB
+  0.10000E+01  0.30000E+02  0.40000E+02       :Ro,Alpha,Height
+**                 :NUMEL(integer); number of elements
+ 1  0.00000E+00    :Node,X(Node)
+**  0.46188E+02    :Node,X(Node)
+F                  :HOMOGN, if true material is homogeneous
+T                  :SYM; if true laminate is symmetric
+ 1                 :Number of stacks
+  1  1  1  0.10000E-01   20.0  :Stack No.,Material No.,NPLY,PTH,Theta
+F                  :FCODE; if .TRUE. mechanical load data follows
+F                  :TCODE; if .TRUE. thermal data follows
+F                  :MOIST; if .TRUE. moisture data follows
+1                  :BCTYPE(1) 0:general 1:s.s 2:clamp 3:free 4:sym
+1                  :BCTYPE(2) 0:general 1:s.s 2:clamp 3:free 4:sym
+T                  :BACK; if true solve for displacements
+T                  :ReSuLT; if true solve for resultants
+T                  :PLoTSWitCh; if true plotting data files
+junk2              :Output file name

@@ -1,0 +1,8 @@
+ 1     :NMAT, Number of materials
+T300/934                      
+2     :MATTYP, (1:iso., 2:trnsv. iso., 3:rhombic)
+ 0.1470E+12  0.9100E+10 :E1, E2
+ 0.3000E+00  0.4900E+00 :Nu12, Nu23
+ 0.4620E+10             :G12
+-0.7200E-07  0.3370E-04 :Alpha thermal 11, At22
+ 0.0000E+00  0.0000E+00 :Am11, Am22
