@@ -12,7 +12,7 @@ c                   is the J'th Gaussian weighting factor for NINT=I.
 c     Called by:
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'int.com'

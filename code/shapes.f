@@ -9,12 +9,12 @@ c     Output:    SHAPE
 c                DIMEXT, logical ; if .true. then dimesion information exits
 c     Commons:   GEOM
 c     Called by: GEOM
-c     Calls    : undefined(a-z)
+c     Calls    : none
 c                                                                      |
 c*******************************************************************************
  
  
-      implicit     undefined(a-z)
+      implicit     none
       
       
       include      'geom.com'

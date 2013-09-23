@@ -14,7 +14,7 @@ c*******************************************************************************
 
 
  
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'io.com'
 

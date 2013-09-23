@@ -13,7 +13,7 @@ c     Common:                                                                 *
 c                                                                             *
 c******************************************************************************
 
-      implicit     undefined(a-z)
+      implicit     none
       include      'contrl.com'
 
       call DSPPLT

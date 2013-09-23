@@ -8,12 +8,12 @@ c                various dimentions
 c     Output:    various dimesions to the GEOM common
 c     Commons:   GEOM
 c     Called by: GEOM
-c     Calls    : undefined(a-z)
+c     Calls    : none
 c                                                                      |
 c*******************************************************************************
  
  
-      implicit     undefined(a-z)
+      implicit     none
       
       
       include      'geom.com'

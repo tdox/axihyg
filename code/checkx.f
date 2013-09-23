@@ -8,12 +8,12 @@ c     Input:     X, the nodal position
 c     Output:    Message to user about validity of nodal position
 c     Commons:   ELMDAT
 c     Called by: CREATE
-c     Calls    : undefined(a-z)
+c     Calls    : none
 c                                                                      |
 c*******************************************************************************
 
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'pi.par'
       include      'geom.com'

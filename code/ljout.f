@@ -2,7 +2,7 @@
       
 c     Purpose: To print the length and Jacobian.
 
-      implicit    undefined(a-z)
+      implicit    none
       
       integer     EL
       real*8      LENGTH,JACOB

@@ -9,7 +9,7 @@ c     Called by: FORMKF
 c     Calls    : 
 
 
-      implicit    undefined(a-z)
+      implicit    none
       
       integer I,J
       

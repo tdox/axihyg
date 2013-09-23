@@ -3,7 +3,7 @@
 c     version 1.0 1 January 1988
 c     version 1.1 revised 15 Sept. 1990
       
-c      implicit    undefined(a-z)
+c      implicit    none
       implicit    none
       
       include     'io.par'

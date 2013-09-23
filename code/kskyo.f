@@ -2,7 +2,7 @@
       
 C     Purpose: To print out the global skyline stiffness array
 
-      implicit undefined(a-z)
+      implicit none
       
       include 'io.par'
       include 'n.par'

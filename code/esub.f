@@ -10,7 +10,7 @@ c     Output:    EMAT
 c     Called by: FORMKF
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
  
       include      'n.par'
       include      'matcod.com'

@@ -2,7 +2,7 @@
       
 c     Purpose: To print out the above variables.
 
-      implicit    undefined(a-z)
+      implicit    none
       
       include     'io.par'
       include     'n.par'

@@ -9,7 +9,7 @@ c     Output:    B(NEN,MXNEPS,MXNVAR),N(NEN,MXNVAR)
 c     Called by: BN
 c     Calls    : CLEARB,QUASHP,LINSHP
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'contrl.com'

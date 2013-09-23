@@ -11,7 +11,7 @@ c     Called by: FORMKF,FEEDGT,SHPPLT,RESULT,POSPLT
 c     Calls    : 
 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'pi.par'
       include      'geom.com'

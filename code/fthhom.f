@@ -11,7 +11,7 @@ c     Output:    FTHRM, the mechanical load vector.
 c     Called by: FTHERM
 c     Calls    : 
 
-      implicit      undefined(a-z)
+      implicit      none
       
       include       'io.par'
       include       'n.par'

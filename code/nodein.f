@@ -8,7 +8,7 @@ c     Output:    Data in the ELMDAT2 common
 c     Called by: INPUT
 c     Calls    : ERROR
 
-      implicit    undefined(a-z)
+      implicit    none
       
       include 'io.par'
       include 'n.par'

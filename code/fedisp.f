@@ -13,7 +13,7 @@ c                    displacements
 c     Called by:
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'bc.com'

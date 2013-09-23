@@ -16,7 +16,7 @@ c     Calls    : None
 c                                                                      |
 c*******************************************************************************
 
-      implicit    undefined(a-z)
+      implicit    none
       
       include     'n.par'
       include     'elmdat.com'

@@ -11,7 +11,7 @@ c                F, the load vector with FE added to it.
 c     Called by: KFCYLN  
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'elmdat.com'

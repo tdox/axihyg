@@ -21,7 +21,7 @@ c                    the diagonal element K(I,I).
 c     Called by:
 c     Calls    : L121,ERROR
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'n.par'
       include      'elmdat.com'

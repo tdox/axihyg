@@ -12,7 +12,7 @@ c                moisture (if THERM = .false) expansion load vector.
 c     Called by: FTHERM
 c     Calls    : 
 
-      implicit      undefined(a-z)
+      implicit      none
       include       'n.par'
       include       'contrl.com'
       include       'elmdat.com'

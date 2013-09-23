@@ -8,7 +8,7 @@ c     Output:    KE, the element stiffness matrix with zeros.
 c     Called by: KCT121,
 c     Calls    :
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       

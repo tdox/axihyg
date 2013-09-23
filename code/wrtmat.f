@@ -15,7 +15,7 @@ c                                                                      |
 c*******************************************************************************
 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'matprp.com'

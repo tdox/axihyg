@@ -9,7 +9,7 @@ c     Output:    FTHRM, the mechanical load vector.
 c     Called by: 
 c     Calls    : FTHMIS
 
-      implicit     undefined(a-z)
+      implicit     none
  
       include      'n.par'
       include      'elmdat.com'

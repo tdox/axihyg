@@ -15,7 +15,7 @@ c                                                                      |
 c*******************************************************************************
 
  
-       implicit    undefined(a-z)
+       implicit    none
               
        character*1 DIST
        real*8      TI,TM,TO

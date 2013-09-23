@@ -16,7 +16,7 @@ c                  isoparametric shape function.
 c     Called by: BN121
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include   'n.par'
       include   'pi.par'

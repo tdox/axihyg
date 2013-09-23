@@ -9,7 +9,7 @@ c     Called by:
 c     Calls    : 
 c     Common:
 
-      implicit    undefined(a-z)
+      implicit    none
       
       integer     M,N,I,J
       

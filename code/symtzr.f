@@ -9,7 +9,7 @@ c     Output:    A (The matrix with the lower triangle filled)
 c     Called by: EISO
 
 
-      implicit    undefined(a-z)
+      implicit    none
       integer     N,I,J
       real*8      A(N,N)
       

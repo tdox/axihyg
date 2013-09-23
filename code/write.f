@@ -12,7 +12,7 @@ c     Called by:
 c     Calls    : NODEIN,NODECALC,ERROR
 c                                                                      |
 c*******************************************************************************
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'bc.com'

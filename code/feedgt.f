@@ -12,7 +12,7 @@ c     Output:    FE, portion of the element force vector due to prescribed
 c                   tractions.
 c     Called by: KFCYLN
 c     Calls    :
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'bc.com'

@@ -8,7 +8,7 @@ c     Output:    XNODE:  position of all nodes
 c     Called by: IDIEN
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'n.par'
       include      'elmdat.com'

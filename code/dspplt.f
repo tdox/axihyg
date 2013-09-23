@@ -13,7 +13,7 @@ c     Common:    CONTRL,ELMDAT,OUT                                            *
 c                                                                             *
 c******************************************************************************
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'io.par'
       include      'n.par'

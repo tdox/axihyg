@@ -6,7 +6,7 @@ c     Input:     LOCation, MESSAGE
 c     Output:    An error message to OUTPUT.DAT
 c     Called by: 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'io.com'
       

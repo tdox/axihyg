@@ -8,7 +8,7 @@ c     Common:
 c     Called by:
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'n.par'
       include      'contrl.com'

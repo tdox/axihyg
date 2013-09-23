@@ -9,12 +9,12 @@ c                various dimenstions of the shell
 c     Output:    SHAPE and various dimensions into GEOM common
 c     Commons:   GEOM
 c     Called by: CREATE
-c     Calls    : undefined(a-z)
+c     Calls    : none
 c                                                                      |
 c*******************************************************************************
  
  
-      implicit     undefined(a-z)
+      implicit     none
       include      'io.com'
       
       logical      EXIST,DIMEXT,YES

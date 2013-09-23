@@ -7,7 +7,7 @@ c                return
 c                                                                      |
 c*******************************************************************************
 
-      implicit    undefined(a-z)
+      implicit    none
 
       print 100
 100   format(/15x,' Press "RETURN" to continue')

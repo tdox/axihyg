@@ -13,7 +13,7 @@ c*******************************************************************************
 
 
 
-      implicit     undefined(a-z)
+      implicit     none
      
       include      'contrl.com'
       include      'io.com'

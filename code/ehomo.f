@@ -9,7 +9,7 @@ c     Output:    E(MXNEPS,MXNEPS) stiffness matrix at a point
 c     Called by: ESUB
 c     Calls    : SYMTZR
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'contrl.com'

@@ -11,7 +11,7 @@ c     Calls    :
 c                                                                      |
 c*******************************************************************************
  
-      implicit    undefined(a-z)
+      implicit    none
 
       logical     YES
 

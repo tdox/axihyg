@@ -19,7 +19,7 @@ c                                                                      |      *
 c******************************************************************************
 
       
-      implicit     undefined(a-z)
+      implicit     none
 
 
       real*8       BETP11,BETP22,BETP33,T,BETA11,BETA22,BETA33,BETA12,

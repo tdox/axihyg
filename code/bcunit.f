@@ -11,7 +11,7 @@ c*******************************************************************************
 
 
 
-      implicit     undefined(a-z)
+      implicit     none
       include      'n.par'
       include      'units.com'
 

@@ -12,7 +12,7 @@ c                                                                      |
 c*******************************************************************************
  
  
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'io.com'
       include      'save.com'

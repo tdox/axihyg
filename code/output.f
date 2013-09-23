@@ -1,6 +1,6 @@
       subroutine OUTPUT
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'io.par'
       include      'n.par'

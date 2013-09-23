@@ -6,12 +6,12 @@ c     Input:     A yes or no answer from the user
 c     Output:    TRU = .true. if yes and TRU = .false. if no
 c     Commons:   None
 c     Called by: 
-c     Calls    : undefined(a-z)
+c     Calls    : none
 c                                                                      |
 c*******************************************************************************
 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       logical      TRU
       character*1  ANS

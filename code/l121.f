@@ -15,7 +15,7 @@ c                  of the I'th local node.
 c     Called by: IDIEN
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       include      'contrl.com'

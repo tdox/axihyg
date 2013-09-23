@@ -13,7 +13,7 @@ c                  isoparametric shape function.
 c     Called by: BCY121
 c     Calls    : 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       real*8       QSH(3),QPSH(3),XI,XI2
       

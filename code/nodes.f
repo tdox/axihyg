@@ -14,7 +14,7 @@ c                                                                      |
 c*******************************************************************************
 
 
-      implicit     undefined(a-z)
+      implicit     none
       
       logical      EXIST,XEDEXT,YES
       

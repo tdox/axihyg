@@ -12,7 +12,7 @@ c     Output:    THETA0,THETA1,THETA2
 c     Called by: INPUT
 c     Calls    : ERROR
 
-      implicit    undefined(a-z)
+      implicit    none
       
       include 'n.par'
       include 'elmdat.com'

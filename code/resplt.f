@@ -14,7 +14,7 @@ c     Common:    CONTRL                                                       *
 c                                                                             *
 c******************************************************************************
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'io.par'
       include      'n.par'

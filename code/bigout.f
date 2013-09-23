@@ -2,7 +2,7 @@
       
 c     Purpose: To print out a big matrix in columns.
 
-      implicit     undefined(a-z)
+      implicit     none
       
       integer      DIM,NUMLIN,UNITNO,NUMCOL,NUMROW,REMAN,JBEGIN,
      *             JEND,ROW,I,J,COL(10),NOCOL

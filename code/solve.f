@@ -10,7 +10,7 @@ c     Called by:
 c     Calls    : NODEIN,NODECALC,ERROR
 c     Common:    KF,ELMDAT
 
-      implicit     undefined(a-z)
+      implicit     none
 
       include      'n.par'
       include      'contrl.com'

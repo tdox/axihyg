@@ -8,7 +8,7 @@ c     Output:    SPOS
 c     Called by: FCYMCH
 c     Calls    : 
 
-      implicit      undefined(a-z)
+      implicit      none
       
       integer       EL
       real*8        XPOS,XI

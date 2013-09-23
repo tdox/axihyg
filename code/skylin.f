@@ -21,7 +21,7 @@ c     Calls    :
 c     Note:     This subroutine is taken from The Finite Element Method, Third
 c               Edition by O. C. Zienkiewicz (p. 740).
 
-      implicit     undefined(a-z)
+      implicit     none
       
       logical    SKFAC,BACK
       integer    NEQ,JDIAG(NEQ),I,J,NSK,JR,JD,JH,IS,IE,ID,IH,IR,K

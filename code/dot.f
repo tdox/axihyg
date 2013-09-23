@@ -1,7 +1,7 @@
 
         function DOT(A,B,N)
         
-        implicit      undefined(a-z)             
+        implicit      none             
 
         integer      I,N  
         real*8       A(N),B(N),DOT     

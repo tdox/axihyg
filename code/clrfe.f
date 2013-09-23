@@ -8,7 +8,7 @@ c     Output:    FE, the element force matrix with zeros.
 c     Called by: KFCYLN,
 c     Calls    :
 
-      implicit     undefined(a-z)
+      implicit     none
       
       include      'n.par'
       
